@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1F2937;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.headerbody {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column; /* Change to column */
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+
+
+.maintext {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 425px;
+    margin-bottom: 8px;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882f6;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: 0px solid #1F2937;
+}
+
+.imgplaceholder {
+    display: flex;
+    height: 150px;
+    width: 500px;
+    border: 0px solid black;
+    color: white;
+    background-color: gray;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 {
+   display: flex;
+    height: 250px;
+    justify-content: center;
+    margin-top: 80px;
+    gap: 120px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 2px solid lightblue;
+    margin-bottom: 12px;
+}
+
+.txt {
+    justify-content: center;
+    width: 120px;
+}
+
+.section3 {
+    display: flex;
+    height: 250px;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 800px;
+}
+
+.CTA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 125px;
+    width: 1200px;
+    background-color: #3882f6;
+}
+
+.CallA {
+    color: wheat;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.Csubtext {
+    color: white;
+}
+
+.CButton {
+ background-color: #3882f6;
+ color: white;
+ font-size: 16px;
+ border: 2px white solid;
+ font-weight: bold;
+ border-radius: 25px;
+}
+
+.footer {
+    display: flex;
+    height: 72px;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 24px;
+    justify-content: center;
+    align-items: center;
+}
